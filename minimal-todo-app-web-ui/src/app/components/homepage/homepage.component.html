@@ -1,0 +1,25 @@
+<div class="container mt-5">
+
+    <div class="d-flex justify-content-center">
+        <h1 class="display-4"> {{ 'homepage.header' | translate}} </h1>
+    </div>
+
+    <hr/>
+
+    <ul>
+        <li><p class="lead text-dark"> {{ 'homepage.purposeOfDevelopment' | translate}} </p></li>
+        <li><p class="lead text-dark"> {{ 'homepage.whatCanYouDo' | translate}} </p></li>
+    </ul>
+
+    <p class="lead text-dark">
+        <strong>{{ 'homepage.usedTechnologies_title' | translate}} </strong> {{ 'homepage.usedTechnologies' | translate}}
+    </p>
+
+    <hr/>
+
+    <div class="d-flex justify-content-center">
+        <a [routerLink]="['/register']" class="btn btn-info btn-lg my-2 mr-2">  {{ 'global.register' | translate}} </a>
+        <a [routerLink]="['/login']" class="btn btn-danger btn-lg my-2"> {{ 'global.login' | translate}} </a>
+    </div>
+
+</div>

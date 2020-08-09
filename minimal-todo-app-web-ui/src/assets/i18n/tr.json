@@ -1,0 +1,44 @@
+{
+  "global": {
+    "good_morning": "Günaydın, ",
+    "good_evening": "İyi akşamlar, ",
+    "register": "Kayıt ol",
+    "login": "Giriş yap",
+    "logout": "Çıkış Yap",
+    "already_member": "Zaten üye misiniz?",
+    "create_new_account": "Yeni hesap oluştur"
+  },
+  "homepage": {
+    "header": "Minimalist Yapılacaklar Uygulaması",
+    "purposeOfDevelopment": "MinimalTodosApp, basit arayüzü sayesinde yapılacak işlerinizi yönetmenizi sağlar.",
+    "whatCanYouDo": "Kolay bir şekilde yapılacak yeni işler ekleyebilir, silebilir ve düzenleyebilirsiniz.",
+    "usedTechnologies_title": "Kullanılan Teknolojiler : ",
+    "usedTechnologies": "Spring Boot + Spring Security + JWT + JPA/Hibernate + PostgreSQL + Angular"
+  },
+  "registration": {
+    "description": "Ücretsiz bir şekilde yeni bir hesap oluştur ve yapacaklarını kaydet!",
+    "name": "İsim",
+    "email": "Email adresi",
+    "username": "Kullanıcı adı",
+    "password": "Şifre"
+  },
+  "dashboard": {
+    "task_header": "Yapılacaklar",
+    "add_task_button": "Ekle",
+    "add_new_task": "Yeni bir görev ekle...",
+    "example_task": "Örneğin; Akşam markete git!",
+    "all_tasks_done": "Tüm yapılacak işler tamamlandı. Tebrikler!",
+    "add_new_task_message": "Hemen yeni bir yapılacak iş ekleyin, sonra ben ne yapacaktım diye düşünmeyin!"
+  },
+  "validations": {
+    "name": "Lütfen isim giriniz",
+    "email": "Lütfen email giriniz",
+    "username": "Lütfen kullanıcı adı giriniz",
+    "password": "Lütfen şifre giriniz"
+  },
+  "not_found_page": {
+    "header": "OOPS!",
+    "not_found_message": "Aradığınız sayfa bulunamadı.",
+    "go_to_dashboard_button": "Ana sayfaya dönün"
+  }
+}

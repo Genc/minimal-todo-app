@@ -1,0 +1,44 @@
+{
+  "global": {
+    "good_morning": "Good Morning, ",
+    "good_evening": "Good Evening, ",
+    "register": "Register",
+    "login": "Login",
+    "logout": "Logout",
+    "already_member": "Are you already a member?",
+    "create_new_account": "Create new account"
+  },
+  "homepage": {
+    "header": "Minimalist Todo Application",
+    "purposeOfDevelopment": "MinimalTodoApp provides you to manage your todos with simple interface.",
+    "whatCanYouDo": "Add, delete and edit new tasks easily",
+    "usedTechnologies_title": "Used Technologies : ",
+    "usedTechnologies": "Spring Boot + Spring Security + JWT + JPA/Hibernate + PostgreSQL + Angular"
+  },
+  "registration": {
+    "description": "Create a free account and save your tasks!",
+    "name": "Name",
+    "email": "Email address",
+    "username": "Username",
+    "password": "Password"
+  },
+  "dashboard": {
+    "task_header": "Todos",
+    "add_task_button": "Add",
+    "add_new_task": "Add new task...",
+    "example_task": "For example; Go to supermarket in the evening",
+    "all_tasks_done": "You have completed all tasks. Congratulations!",
+    "add_new_task_message": "Add a new todo right now, then don't worry about what I will do!"
+  },
+  "validations": {
+    "name": "Please enter a name",
+    "email": "Please enter an email",
+    "username": "Please enter a username",
+    "password": "Please enter a password"
+  },
+  "not_found_page": {
+    "header": "OOPS!",
+    "not_found_message": "Page Not Found",
+    "go_to_dashboard_button": "GO TO DASHBOARD"
+  }
+}
