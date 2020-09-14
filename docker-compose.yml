@@ -1,0 +1,38 @@
+version: '3'
+services:
+  minimal-todo-postgres:
+    image: postgres:9.6-alpine
+    container_name: minimal-todo-postgres
+    volumes:
+      - minimal-todo-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=minimal-todo-app
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=example
+
+  minimal-todo-backend:
+    build: ./minimal-todo-app
+    container_name: minimal-todo-app
+    environment:
+      - DB_SERVER=minimal-todo-postgres
+      - POSTGRES_DB=minimal-todo-app
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=example
+      - spring.profiles.active=docker
+    ports:
+      - "8080:8080"
+    links:
+      - minimal-todo-postgres
+
+  minimal-todo-frontend:
+    build: ./minimal-todo-app-web-ui
+    container_name: minimal-todo-ui
+    ports:
+      - "3030:80"
+    links:
+      - minimal-todo-backend
+
+volumes:
+  minimal-todo-data:
