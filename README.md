@@ -49,6 +49,20 @@ komutlarını çalıştırarak angular projesini ayağa kaldırabilirsiniz.
 
 Artık fronent projesi```localhost:4200``` adresinden ulaşılabilir durumda. :tada:
 
+## Uygulamaları Docker ile nasıl ayağa kaldırabilirim?
+
+- Bütün uygulamaları (postgres, angular ve spring boot) docker imagelerini üreterek container olarak
+ayağa kaldırabiliriz.
+
+```bash
+docker-compose up
+```
+
+- Container'ları durdurmak ve tekrar güncelleyerek kullanabilmek için de aşağıdaki scripti çalıştırabiliriz.
+
+```bash
+docker-compose down
+```
 
 ## Kullanılan Teknolojiler
 
@@ -57,7 +71,8 @@ Artık fronent projesi```localhost:4200``` adresinden ulaşılabilir durumda. :t
  - JPA/Hibernate
  - Angular 9 & TypeScript
  - PostgreSQL
-
+ - Docker
+ 
 ## Ekran Görüntüleri
 
 ![desc](https://farukgenc.com/minimaltodoapp/homepage.png)
